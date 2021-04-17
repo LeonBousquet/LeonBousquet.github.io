@@ -274,6 +274,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.hobbies {
+  height: 120px;
+  width: 120px;
+}
+
 #hero:before {
   content: "";
   background: rgba(255, 255, 255, 0.8);
