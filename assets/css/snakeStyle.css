@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+body {
+  font-family: 'Arvo', sans-serif;
+  overflow : hidden;
+}
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: #DDDDDD;
+	color: black;
+}
+
+
+.table {
+  justify-content: center;
+  width: auto;
+  display: inline-flex;
+}
+
+.main {
+  text-align: center;
+}
+
+#play {
+  cursor: pointer;
+  height: 70px;
+  width: 90px;
+}
+
+#red {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+
+#blue {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+
+#green {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+
+#partyTime {
+  cursor: pointer;
+  height: 80px;
+  width: 80px;
+}
+
+#spacebar {
+  height: 80px;
+  width: 150px;
+}

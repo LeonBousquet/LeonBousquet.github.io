@@ -1,0 +1,62 @@
+<html lang="fr">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv ="content-type" content="text/html; charset=utf-8" />
+  <link href="assets/css/bootstrap_snake.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/snakeStyle.css">
+  <title>Projet Snake</title>
+</head>
+<body>
+  <div class="main">
+    <div class="table table-responsive">
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <h2>Bienvenue sur le jeu du Snake !</h2>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4><u>Score</u></h4>
+              <h4 id="score">0</h4>
+            </td>
+            <td>
+              <h4><u>High Score</u></h4>
+              <h4 id="highScore"></h4>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <canvas id='canvas'></canvas>
+            </td>
+            <td>
+              <img id="play" onclick='window.location.reload(false)' src="assets/img/img_snake/start.png">
+              </br>
+              </br>
+              <h4>Choisir la couleur du serpent : </h4>
+              <br/>
+              <img class="color" id="red" src="assets/img/img_snake/red.png">
+              <img class="color" id="blue" src="assets/img/img_snake/blue.png">
+              <img class="color" id="green" src="assets/img/img_snake/green.png">
+              <br/>
+              <br/>
+              <h4>Mode fête</h4>
+              <img id="partyTime" src="assets/img/img_snake/fete.png">
+              <audio id="music" src="" loop autoplay> </audio>
+              <br/>
+              <br/>
+              <h4>Play/Pause : </h4>
+              <img id="spacebar" src="assets/img/img_snake/space.png">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src='assets/js/snake.js'></script>
+  <script>
+  const app = new Controller(new Model(),new View());
+  </script>
+</body>
+</html>
