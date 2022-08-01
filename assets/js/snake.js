@@ -153,9 +153,9 @@ class View {
     this.context.fillStyle = '#eee8d5';
     this.context.font = '25px Arvo';
     this.context.textAlign = 'center';
-    this.context.fillText('Appuyer sur le bouton \'PLAY\'', model.SIZE / 2, model.SIZE / 2);
+    this.context.fillText('Press \'PLAY\' button', model.SIZE / 2, model.SIZE / 2);
     if(model.recordBattu) {
-      this.context.fillText('BRAVO !! NOUVEAU RECORD : '+model.highScore, model.SIZE / 2, model.SIZE -15);
+      this.context.fillText('CONGRATS !! NEW RECORD : '+model.highScore, model.SIZE / 2, model.SIZE -15);
     }
   }
 
